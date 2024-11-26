@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(0, 242, 0);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.login {
+    padding-top: 36.5%;
+    background-color: white;
+    max-width: 290PX;
+    position: relative;
+    left: 1239px;
+    bottom: 8px;
+    justify-items: center
+}
+
+.login > img{
+   position: relative;
+   bottom: 500px; 
+}
+
+#form-login {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    bottom: 300px;
+    justify-items: center
+    
+}
+
+#form-login > button {
+    max-width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    left: 45px;
+}
+
+#form-login > a {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    left: 22px;
+}
